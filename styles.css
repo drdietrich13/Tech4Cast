@@ -1,0 +1,299 @@
+body{
+    font-family: ;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #808080;
+    color: #30CC76;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #30CC76 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+ header .current a{
+    color: #30CC76;
+    font-weight: bold;
+     
+}
+
+header a:hover{
+    color: #30CC76;
+    background-color:
+}
+
+
+/*Showcase*/ 
+#showcase{
+    min-height: 400px;
+    background-image: url(img/macbook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+.green4{
+    color: #30CC76;
+}
+
+.btn2{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    color: #30CC76;
+}
+
+#newsletter{
+    padding: 10px;
+    background: #30CC76;
+    color: #ffffff;
+}
+
+#newsletter h1{
+    float: left;
+    
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button-1{
+    height: 38px;
+    background: #;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #30CC76;
+}
+
+
+#boxes{
+    margin-top: 20px;
+    
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box i{
+    width: 90px;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #30CC76;
+    text-align: center;
+}
+
+
+
+/* PAGE 2!!!!!*/ 
+
+aside #sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article #main-col{
+    float: left;
+    width: 65%;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #f4f4f4;
+}
+
+
+
+
+
+
+
+/* PAGE 3!!!!!!*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+  background: #808080;
+}
+
+.landing-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.landing {
+  position: relative;
+  background-image: url(img/nasa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.landing h1 {
+  font-size: 50px;
+}
+
+.landing p {
+  font-size: 20px;
+}
+
+.countdown {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown div {
+  padding: 20px;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  background: #000;
+  opacity: 0.7;
+  margin: 5px;
+}
+
+.countdown div:first-child {
+  background:#30CC76;
+}
+
+.countdown span {
+  display: block;
+  font-size: 25px;
+}
+
+@media (max-width: 650px) {
+  .landing img {
+    width: 70%;
+  }
+
+  .landing h1 {
+    font-size: 40px;
+  }
+
+  .countdown {
+    font-size: 30px;
+    flex-direction: column;
+  }
+
+  .countdown div {
+    display: none;
+  }
+
+  .countdown div:first-child {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+
+@media (max-height: 600px) {
+  img {
+    width: 20%;
+  }
+
+  p {
+    display: none;
+  }
+}
+
+@media (max-height: 400px) {
+   img {
+    padding-bottom: 30px;
+  }
+  
+  
+}
+
+
+
+
+
